@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button, Container, Row } from 'react-bootstrap'
 import { RiHome7Fill } from 'react-icons/ri'
 import '../styles/common.css'
 
@@ -13,6 +13,7 @@ const HomeNavItem = () => {
         />
         <span className="twitter-color twitter-font top-margin">Home</span>
       </Button>
+      <Row></Row>
     </>
   )
 }
