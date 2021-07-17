@@ -9,7 +9,7 @@ const TweetBtnNavItem = () => {
       <Button variant='tweetnavitem'>
         <span className="twitter-font tweet-btn-nav-item txt-font-size">Tweet</span>
       </Button>
-      <Row></Row>
+      <Row className='mb-5'></Row>
     </>
   )
 }
