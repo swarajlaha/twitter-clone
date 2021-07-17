@@ -1,21 +1,21 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
-import { FiHash } from 'react-icons/fi'
+import { BsPerson } from 'react-icons/bs'
 import '../styles/common.css'
 
-const ExploreNavItem = () => {
+const ProfileNavItem = () => {
   return (
     <>
       <Button variant='navitem'>
-        <FiHash
+        <BsPerson
           className="top-margin logo fa-lg right-margin"
           size={28}
         />
-        <span className="twitter-font top-margin">Explore</span>
+        <span className="twitter-font top-margin">Profile</span>
       </Button>
       <Row></Row>
     </>
   )
 }
 
-export default ExploreNavItem
+export default ProfileNavItem

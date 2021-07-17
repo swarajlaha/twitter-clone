@@ -1,21 +1,21 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
-import { FiHash } from 'react-icons/fi'
+import { CgMoreO } from 'react-icons/cg'
 import '../styles/common.css'
 
-const ExploreNavItem = () => {
+const MoreNavItem = () => {
   return (
     <>
       <Button variant='navitem'>
-        <FiHash
+        <CgMoreO
           className="top-margin logo fa-lg right-margin"
           size={28}
         />
-        <span className="twitter-font top-margin">Explore</span>
+        <span className="twitter-font top-margin">More</span>
       </Button>
       <Row></Row>
     </>
   )
 }
 
-export default ExploreNavItem
+export default MoreNavItem
