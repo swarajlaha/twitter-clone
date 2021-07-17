@@ -6,6 +6,7 @@ import MoreNavItem from '../components/moreNavItem'
 import MsgNavItem from '../components/msgNavItem'
 import NotifNavItem from '../components/notifNavItem'
 import ProfileNavItem from '../components/profileNavItem'
+import TweetBtnNavItem from '../components/tweetBtnNavItem'
 
 const NavItemsContainer = () => {
   return (
@@ -16,7 +17,8 @@ const NavItemsContainer = () => {
         <NotifNavItem /><br />
         <MsgNavItem /><br />
         <ProfileNavItem /><br />
-        <MoreNavItem />
+        <MoreNavItem /><br />
+        <TweetBtnNavItem />
       </Container>
     </>
   )

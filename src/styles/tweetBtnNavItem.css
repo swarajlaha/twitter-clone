@@ -1,0 +1,22 @@
+.tweet-btn-nav-item {
+  color: white;
+}
+
+.btn-tweetnavitem {
+  background-color: #1da1f2 !important;
+  border-radius: 40px !important;
+  margin-left: 20px;
+  width: 250px;
+  height: 50px;
+}
+
+.btn-tweetnavitem:hover {
+  background-color: #1190df !important;
+  border-radius: 40px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+.txt-font-size {
+  font-size: 1.2rem;
+}
