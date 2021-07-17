@@ -1,10 +1,10 @@
 import React from 'react'
-import LogoContainer from '../containers/logoContainer'
+import SideNavBar from '../commons/sideNavBar'
 
 const Home = () => {
   return (
     <>
-      <LogoContainer />
+      <SideNavBar />
     </>
   )
 }

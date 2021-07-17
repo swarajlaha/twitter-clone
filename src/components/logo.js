@@ -6,7 +6,7 @@ import '../styles/logo.css'
 const Logo = () => {
   return (
     <>
-      <FaTwitter className="twitter-color logo fa-lg" size={29} />
+      <FaTwitter className="twitter-color left-margin logo fa-lg" size={29} />
     </>
   )
 }

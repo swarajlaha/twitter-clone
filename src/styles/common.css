@@ -1,3 +1,31 @@
 .twitter-color {
   color: #1da1f2;
 }
+
+.twitter-font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.left-margin {
+  margin-left: 29px;
+}
+
+.top-margin {
+  margin-top: -5px;
+}
+
+.right-margin {
+  margin-right: 18px;
+}
+
+.btn-navitem {
+  background-color: transparent !important;
+  margin-left: 15px;
+}
+
+.btn-navitem:hover {
+  background-color: #c9e5f7 !important;
+  border-radius: 40px;
+}
