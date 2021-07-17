@@ -6,14 +6,13 @@ import '../styles/common.css'
 const ExploreNavItem = () => {
   return (
     <>
-      <Button variant='navitem'>
+      <Button variant='navitem' className='mb-2'>
         <FiHash
           className="top-margin logo fa-lg right-margin"
           size={28}
         />
         <span className="twitter-font top-margin">Explore</span>
       </Button>
-      <Row></Row>
     </>
   )
 }

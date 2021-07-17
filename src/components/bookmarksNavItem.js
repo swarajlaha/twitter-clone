@@ -1,20 +1,20 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
-import { FiMail } from 'react-icons/fi'
+import { BiBookmark } from 'react-icons/bi'
 import '../styles/common.css'
 
-const MsgNavItem = () => {
+const BookmarksNavItem = () => {
   return (
     <>
       <Button variant='navitem' className='mb-2'>
-        <FiMail
+        <BiBookmark
           className="top-margin logo fa-lg right-margin"
           size={28}
         />
-        <span className="twitter-font top-margin">Messages</span>
+        <span className="twitter-font top-margin">Bookmarks</span>
       </Button>
     </>
   )
 }
 
-export default MsgNavItem
+export default BookmarksNavItem

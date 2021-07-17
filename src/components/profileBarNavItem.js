@@ -8,7 +8,7 @@ import { GrMore } from 'react-icons/gr'
 const ProfileBarNavItem = () => {
   return (
     <>
-      <Row className='mt-3'></Row>
+      <Row style={{marginTop: '-15px'}}></Row>
       <Button variant="profilebarnavitem">
         <img src={profilepic} alt='profilepic' />
         <span className="profilebar-font">Swaraj Laha

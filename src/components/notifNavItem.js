@@ -6,14 +6,13 @@ import '../styles/common.css'
 const NotifNavItem = () => {
   return (
     <>
-      <Button variant='navitem'>
+      <Button variant='navitem' className='mb-2'>
         <VscBell
           className="top-margin logo fa-lg right-margin"
           size={28}
         />
         <span className="twitter-font top-margin">Notifications</span>
       </Button>
-      <Row></Row>
     </>
   )
 }
