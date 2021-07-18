@@ -4,6 +4,7 @@ import avatar from '../assets/img/avatar1.jpg'
 import postpic from '../assets/img/postpic.jpg'
 import { VscDebugStackframeDot } from 'react-icons/vsc'
 import { GrMore } from 'react-icons/gr'
+import ReactionBar from './reactionBar'
 
 const FeedCard = () => {
   return (
@@ -35,6 +36,7 @@ const FeedCard = () => {
                   alt="avatarpic"
                   style={{ marginTop: '-10px', marginLeft: '0.5px' }}
                 />
+                <ReactionBar />
             </Card.Body>
           </Card>
         </Row>

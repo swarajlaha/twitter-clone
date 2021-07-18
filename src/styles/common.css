@@ -82,7 +82,6 @@
 }
 
 .feedcontent{
-  font-weight: 200;
   font-size: 1rem;
   margin-left: 50px;
   margin-top: -24px;
@@ -93,4 +92,48 @@
   height: 320px !important;
   border-radius: 6% !important;
   margin-left: 52px !important;
+}
+
+.btn-reactmsg {
+  margin-left: 40px;
+}
+
+.btn-reactmsg:hover {
+  color: #1da1f2 !important;
+  background-color: #d4e3ec !important;
+  border-radius: 100%;
+  width: 40px;
+}
+
+.btn-reactretweet {
+  margin-left: 40px;
+}
+
+.btn-reactretweet:hover {
+  background-color: rgb(222, 241, 224) !important;
+  border-radius: 100%;
+  color: rgb(50, 107, 58) !important;
+  width: 40px;
+}
+
+.btn-reactheart {
+  margin-left: 40px;
+}
+
+.btn-reactheart:hover {
+  background-color: rgb(228, 205, 209) !important;
+  border-radius: 100%;
+  color: rgb(224, 62, 89) !important;
+  width: 40px;
+}
+
+.btn-reactshare {
+  margin-left: 40px;
+}
+
+.btn-reactshare:hover {
+  background-color: #d4e3ec !important;
+  border-radius: 100%;
+  color: #1da1f2 !important;
+  width: 40px;
 }
