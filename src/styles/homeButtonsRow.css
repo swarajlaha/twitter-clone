@@ -8,3 +8,17 @@
   margin-bottom: 5px;
   margin-left: 20px;
 }
+
+.btn-homebuttonsrow {
+  color: #1da1f2 !important;
+  margin-top: -10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 45px !important;
+}
+
+.btn-homebuttonsrow:hover {
+  background-color: #dfeef7 !important;
+  border-radius: 45px !important;
+  margin-top: -10px;
+}

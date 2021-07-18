@@ -30,3 +30,17 @@
   border-radius: 40px;
   color: #1da1f2 !important;
 }
+
+.main-avatar {
+  height: 45px !important;
+  width: 45px !important;
+}
+
+.btn-avatar {
+  margin-top: -10px;
+  margin-left: -20px;
+  margin-right: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 45px !important;
+}

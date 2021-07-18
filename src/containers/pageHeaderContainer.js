@@ -6,7 +6,7 @@ import '../styles/pageHeaderContainer.css'
 const PageHeaderContainer = () => {
   return (
     <>
-      <Container className="mt-3 twitter-font">
+      <Container className="twitter-font">
         <Row>
           <Card className='borderstyle'>
             <Card.Body>
