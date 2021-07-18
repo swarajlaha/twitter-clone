@@ -44,3 +44,53 @@
   width: 40px;
   border-radius: 45px !important;
 }
+
+.btn-profilename {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 1rem !important;
+  margin-top: -40px;
+  margin-left: -8px;
+}
+
+.btn-profilename:hover {
+  text-decoration: underline;
+}
+
+.username {
+  color: rgb(114, 112, 112) !important;
+}
+
+.username:hover {
+  text-decoration: none !important;
+}
+
+.btn-profilemore {
+  margin-top: -50px;
+  margin-left: 265px;
+  padding-right: 0 !important;
+  height: 28px;
+  width: 28px;
+  border-radius: 45px;
+}
+
+.btn-profilemore:hover {
+  background-color: #c9e5f7;
+  height: 28px;
+  width: 28px;
+  border-radius: 45px;
+}
+
+.feedcontent{
+  font-weight: 200;
+  font-size: 1rem;
+  margin-left: 50px;
+  margin-top: -24px;
+}
+
+.postpic {
+  width: 500px !important;
+  height: 320px !important;
+  border-radius: 6% !important;
+  margin-left: 52px !important;
+}

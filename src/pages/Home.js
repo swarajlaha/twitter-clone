@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import SideNavBar from '../commons/sideNavBar'
+import FeedCardsContainer from '../containers/feedCardsContainer'
 import PageHeaderContainer from '../containers/pageHeaderContainer'
 import WhatsHappeningContainer from '../containers/whatsHappeningContainer'
 
@@ -15,6 +16,7 @@ const Home = () => {
           <Col md={6}>
             <PageHeaderContainer />
             <WhatsHappeningContainer />
+            <FeedCardsContainer />
           </Col>
           <Col md={3}>
             <SideNavBar />
