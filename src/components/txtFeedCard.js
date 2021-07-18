@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, Button, Row, Container } from 'react-bootstrap'
 import avatar from '../assets/img/avatar1.jpg'
-import postpic from '../assets/img/postpic.jpg'
 import { VscDebugStackframeDot } from 'react-icons/vsc'
 import { GrMore } from 'react-icons/gr'
 import ReactionBar from './reactionBar'

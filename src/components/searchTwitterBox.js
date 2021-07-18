@@ -8,14 +8,8 @@ const SearchTwitterBox = () => {
     <>
       <InputGroup className="mt-1">
         <InputGroup.Text className="searchbox" id="basic-addon1">
-          <FiSearch />
+          <FiSearch />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Twitter
         </InputGroup.Text>
-        <FormControl
-          placeholder={"Search Twitter"}
-          aria-label="Username"
-          aria-describedby="basic-addon1"
-          className="searchbox"
-        />
       </InputGroup>
     </>
   )
