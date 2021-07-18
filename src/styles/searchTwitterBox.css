@@ -1,0 +1,12 @@
+.searchbox {
+  border-color: transparent !important;
+  background-color: rgb(236, 236, 236);
+  width: 100px;
+  height: 50px;
+  border-radius: 40%;
+  box-shadow: none !important;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
