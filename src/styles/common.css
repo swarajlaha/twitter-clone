@@ -137,3 +137,12 @@
   color: #1da1f2 !important;
   width: 40px;
 }
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+}
+
+.feedcontentcol {
+  margin-left: 310px;
+}

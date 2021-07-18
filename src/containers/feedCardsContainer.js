@@ -7,6 +7,7 @@ const FeedCardsContainer = () => {
     <>
       <Col className='mt-2'>
         <FeedCard />
+        <FeedCard />
       </Col>
     </>
   )

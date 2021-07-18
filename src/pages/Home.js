@@ -4,16 +4,17 @@ import SideNavBar from '../commons/sideNavBar'
 import FeedCardsContainer from '../containers/feedCardsContainer'
 import PageHeaderContainer from '../containers/pageHeaderContainer'
 import WhatsHappeningContainer from '../containers/whatsHappeningContainer'
+import '../styles/common.css'
 
 const Home = () => {
   return (
     <>
       <Container>
         <Row>
-          <Col md={3}>
+          <Col md={3} className='sidenav'>
             <SideNavBar />
           </Col>
-          <Col md={6}>
+          <Col md={6} className='feedcontentcol'>
             <PageHeaderContainer />
             <WhatsHappeningContainer />
             <FeedCardsContainer />
