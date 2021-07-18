@@ -1,0 +1,45 @@
+.btn-whotofollowbtn {
+  height: 80px;
+  width: 19rem;
+  background-color: whitesmoke !important;
+  text-align: left !important;
+  padding-top: 0;
+}
+
+.whotofollowimg {
+  width: 50px !important;
+  height: 50px !important;
+  float: left;
+  margin-left: 2px !important;
+  border-radius: 50% !important;
+}
+
+.profilefollow-font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-follow {
+  background-color: whitesmoke !important;
+  border-color: #1da1f2;
+  color: #1da1f2 !important;
+  border-radius: 95px !important;
+  width: 80px;
+  height: 35px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.btn-follow:hover {
+  background-color: #cbe1ee !important;
+  border-color: #1da1f2;
+  color: #1da1f2 !important;
+  border-radius: 95px !important;
+  width: 80px;
+  height: 35px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  float: right;
+}

@@ -25,41 +25,72 @@ const WhatshappeningCard = () => {
         <Button variant="whatshappeningbtn">
           <span className="whatshappeningtxt">
             Formula 1 <VscDebugStackframeDot /> LIVE
-          </span><br />
+          </span>
+          <br />
           <b>British Grand Prix 2021</b>
           <span>
             <img
-              className='whatshappeningimg'
+              className="whatshappeningimg"
               src={whatshappening}
               alt="avatarpic"
             />
             <br />
-            Trending with <a href=''>British GP</a>&nbsp;<br /><a href=''>Grand Prix</a>
+            Trending with <a href="">British GP</a>&nbsp;
+            <br />
+            <a href="">Grand Prix</a>
           </span>
         </Button>
-        <hr style={{marginTop: '2px', marginBottom: '2px', color: 'transparent'}} />
-        <Button variant="whatshappeningbtn" className='pt-3'>
+        <hr
+          style={{
+            marginTop: '2px',
+            marginBottom: '2px',
+            color: 'transparent',
+          }}
+        />
+        <Button variant="whatshappeningbtn" className="pt-3">
           <span className="whatshappeningtxt">
             Entertainment <VscDebugStackframeDot /> Trending
-          </span><br />
-          <b>#TheKapilSharmaShow</b><br />
-            1,000 tweets
+          </span>
+          <br />
+          <b>#TheKapilSharmaShow</b>
+          <br />
+          1,000 tweets
         </Button>
-        <hr style={{marginTop: '2px', marginBottom: '2px', color: 'transparent'}} />
+        <hr
+          style={{
+            marginTop: '2px',
+            marginBottom: '2px',
+            color: 'transparent',
+          }}
+        />
         <Button variant="whatshappeningbtn">
           <span className="whatshappeningtxt">
             Formula 1 <VscDebugStackframeDot /> LIVE
-          </span><br />
+          </span>
+          <br />
           <b>British Grand Prix 2021</b>
-          <span>
+          <span style={{fontSize: '0.9rem'}}>
             <img
-              className='whatshappeningimg'
+              className="whatshappeningimg"
               src={whatshappening}
               alt="avatarpic"
             />
             <br />
-            Trending with <a href=''>British GP</a>&nbsp;<br /><a href=''>Grand Prix</a>
+            Trending with <a href="">British GP</a>&nbsp;
+            <br />
+            <a href="">Grand Prix</a>
           </span>
+          <Card.Header
+            style={{
+              width: '19.2rem',
+              fontSize: '1.2rem',
+              backgroundColor: 'whitesmoke',
+              marginLeft: '-15px',
+              fontSize: '0.9rem'
+            }}
+          >
+            <a href=''>Show more</a>
+          </Card.Header>
         </Button>
       </Card>
     </>
