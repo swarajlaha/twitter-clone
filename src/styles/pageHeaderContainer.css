@@ -11,3 +11,10 @@
 .borderstyle {
   border: 0.5px;
 }
+
+.fixedhome {
+  margin-left: -1px;
+  z-index: 1;
+  width: 50%;
+  position: fixed !important;
+}
