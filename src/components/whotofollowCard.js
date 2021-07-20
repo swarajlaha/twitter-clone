@@ -3,7 +3,6 @@ import { Card, Button } from 'react-bootstrap'
 import '../styles/common.css'
 import '../styles/whatshappeningCard.css'
 import '../styles/whotofollow.css'
-import { VscDebugStackframeDot } from 'react-icons/vsc'
 import whatshappening from '../assets/img/whatshappening1.jpg'
 
 const WhotofollowCard = () => {
@@ -41,9 +40,9 @@ const WhotofollowCard = () => {
         </Button>
         <hr
           style={{
-            marginTop: '2px',
-            marginBottom: '2px',
-            color: 'transparent',
+            marginTop: '1px',
+            marginBottom: '1px',
+            color: '#CDCDCE',
           }}
         />
         <Button variant="whotofollowbtn">
@@ -77,9 +76,9 @@ const WhotofollowCard = () => {
         </Button>
         <hr
           style={{
-            marginTop: '2px',
-            marginBottom: '2px',
-            color: 'transparent',
+            marginTop: '1px',
+            marginBottom: '1px',
+            color: '#CDCDCE',
           }}
         />
       </Card>

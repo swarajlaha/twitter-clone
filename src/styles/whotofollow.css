@@ -22,7 +22,7 @@
 
 .btn-follow {
   background-color: whitesmoke !important;
-  border-color: #1da1f2;
+  border-color: #1da1f2 !important;
   color: #1da1f2 !important;
   border-radius: 95px !important;
   width: 80px;
@@ -38,6 +38,27 @@
   color: #1da1f2 !important;
   border-radius: 95px !important;
   width: 80px;
+  height: 35px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.btn-closecross {
+  background-color: whitesmoke !important;
+  border-color: #1da1f2;
+  color: rgb(77, 77, 77) !important;
+  border-radius: 95px !important;
+  width: 35px;
+  height: 35px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.btn-closecross:hover {
+  background-color: #cbe1ee !important;
+  width: 35px;
   height: 35px;
   margin-top: -15px;
   margin-bottom: 5px;

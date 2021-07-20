@@ -42,9 +42,9 @@ const WhatshappeningCard = () => {
         </Button>
         <hr
           style={{
-            marginTop: '2px',
-            marginBottom: '2px',
-            color: 'transparent',
+            marginTop: '1px',
+            marginBottom: '1px',
+            color: '#CDCDCE',
           }}
         />
         <Button variant="whatshappeningbtn" className="pt-3">
@@ -58,9 +58,9 @@ const WhatshappeningCard = () => {
         </Button>
         <hr
           style={{
-            marginTop: '2px',
-            marginBottom: '2px',
-            color: 'transparent',
+            marginTop: '1px',
+            marginBottom: '1px',
+            color: '#CDCDCE',
           }}
         />
         <Button variant="whatshappeningbtn">
