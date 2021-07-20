@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Button, Row, Container } from 'react-bootstrap'
 import avatar from '../assets/img/avatar1.jpg'
+import avatartwo from '../assets/img/avatar2.jpg'
 import { VscDebugStackframeDot } from 'react-icons/vsc'
 import { GrMore } from 'react-icons/gr'
 import ReactionBar from './reactionBar'
@@ -15,7 +16,7 @@ const TxtFeedCard = () => {
               <Row></Row>
               <Button variant="avatar">
                 <img
-                  src={avatar}
+                  src={avatartwo}
                   className="main-avatar"
                   alt="avatarpic"
                   style={{ marginTop: '-10px', marginLeft: '0.5px' }}

@@ -4,6 +4,7 @@ import '../styles/common.css'
 import '../styles/whatshappeningCard.css'
 import { VscDebugStackframeDot } from 'react-icons/vsc'
 import whatshappening from '../assets/img/whatshappening1.jpg'
+import whatshappeningtwo from '../assets/img/whatshappening2.jpg'
 
 const WhatshappeningCard = () => {
   return (
@@ -72,7 +73,7 @@ const WhatshappeningCard = () => {
           <span style={{fontSize: '0.9rem'}}>
             <img
               className="whatshappeningimg"
-              src={whatshappening}
+              src={whatshappeningtwo}
               alt="avatarpic"
             />
             <br />

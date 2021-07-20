@@ -3,7 +3,8 @@ import { Card, Button } from 'react-bootstrap'
 import '../styles/common.css'
 import '../styles/whatshappeningCard.css'
 import '../styles/whotofollow.css'
-import whatshappening from '../assets/img/whatshappening1.jpg'
+import whotofollowone from '../assets/img/whotofollow1.jpg'
+import whotofollowtwo from '../assets/img/whotofollow2.jpg'
 
 const WhotofollowCard = () => {
   return (
@@ -26,7 +27,7 @@ const WhotofollowCard = () => {
           <span>
             <img
               className="whotofollowimg"
-              src={whatshappening}
+              src={whotofollowone}
               alt="avatarpic"
             />
             <span className="profilefollow-font">Jon Doe</span><br />
@@ -49,7 +50,7 @@ const WhotofollowCard = () => {
           <span>
             <img
               className="whotofollowimg"
-              src={whatshappening}
+              src={whotofollowtwo}
               alt="avatarpic"
             />
             <span className="profilefollow-font">Michael Scott</span><br />
