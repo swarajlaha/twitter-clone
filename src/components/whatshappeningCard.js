@@ -86,7 +86,9 @@ const WhatshappeningCard = () => {
               fontSize: '1.2rem',
               backgroundColor: 'whitesmoke',
               marginLeft: '-15px',
-              fontSize: '0.9rem'
+              fontSize: '0.9rem',
+              borderBottomLeftRadius: '12px',
+              borderBottomRightRadius: '12px'
             }}
           >
             <a href=''>Show more</a>
